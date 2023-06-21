@@ -1,0 +1,19 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Header */
+#nav-menu-container {
+    width: 90%;
+}
+
+/* Carousel */
+#carousel-container-inner {
+    height: calc(100vh - 56px);
+}
+.mm-carousel-info {
+    position: absolute;
+    bottom: 150px;
+    height: 100px;
+}
