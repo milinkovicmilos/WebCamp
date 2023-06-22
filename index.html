@@ -4,38 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebCamp</title>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/98bb0aa457.js" crossorigin="anonymous"></script>
     <!-- Bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" type="text/css" />
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-body-secondary">
             <div class="container-fluid" id="nav-menu-container">
-                <a class="navbar-brand" href="#">&#60;WebCamp&#47;&#62;</a>
+                <a class="navbar-brand" href="#"><h1 class="fs-3">&#60;WebCamp&#47;&#62;</h1></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu" aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="nav-menu">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Courses</a>
+                            <a class="nav-link" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="courses.html">Courses</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="contact.html">Contact Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Author</a>
+                            <a class="nav-link" href="author.html">About Author</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <body>
+    <main>
         <section id="slider">
             <div id="carousel-container" class="carousel slide">
                 <div class="carousel-indicators">
@@ -100,7 +103,86 @@
                 </button>
             </div>
         </section>
-    </body>
+        <section id="welcome" class="pt-4">
+            <h2 class="text-center text-decoration-underline mb-5">Welcome to WebCamp</h2>
+            <div class="row justify-content-evenly align-items-stretch gap-4">
+                <div class="col-12 col-md-5 bg-secondary-subtle rounded p-3">
+                    <h3 class="text-center pt-1 pb-5">What is WebCamp ?</h3>
+                    <div class="d-flex flex-column align-content-center justify-content-evenly mm-info">
+                        <p class="fs-5">WebCamp is a well structered online platform designed to help you start your Web Developer journey.</p>
+                        <p class="fs-5">With our team we designed multiple practical courses that will get you started in world of Web Development.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5 bg-secondary-subtle rounded p-3">
+                    <h3 class="text-center pt-1 pb-5">Who is WebCamp for ?</h3>
+                    <div class="d-flex flex-column align-content-center justify-content-evenly mm-info">
+                        <p class="fs-5">
+                            Our courses are primarly focused on people that are new to web technologies, but we also have specialized courses for
+                            for clients who are already familiar with basic concepts of web development of.</p>
+                        <p class="fs-5">
+                            Through our courses you will learn basics of programming in C language as well as 
+                            Front End and Back End technologies that are powering todays most used web applications.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="cointainer-fluid bg-body-secondary">
+            <div id="footer-content">
+                <div class="row">
+                    <div class="d-none d-xl-block col-4">
+                        <nav class="navbar w-100 h-100">
+                            <ul class="navbar-nav w-100 flex-row justify-content-evenly">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="courses.html">Courses</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="author.html">About Author</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-12 order-1 order-md-0 col-md-6 col-xl-4">
+                        <a class="nav-link" href="#">
+                            <p class="text-center fs-3 my-4">&#60;WebCamp&#47;&#62;</p>
+                        </a>
+                        <p class="text-center" id="copyright-text">Copyright &#169; 2023 Miloš Milinković. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-12 order-0 order-md-1 col-md-6 col-xl-4 d-flex flex-column">
+                        <nav class="d-xl-none navbar w-100">
+                            <ul class="navbar-nav w-100 flex-wrap flex-row justify-content-evenly gap-2 gap-sm-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="courses.html">Courses</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="author.html">About Author</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="h-100 d-flex justify-content-evenly align-items-center">
+                            <a class="text-dark-emphasis fs-2" href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a class="text-dark-emphasis fs-2" href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                            <a class="text-dark-emphasis fs-2" href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- Bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>

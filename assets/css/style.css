@@ -3,17 +3,39 @@
     padding: 0px;
 }
 
+#welcome, #footer-content {
+    width: 90%;
+    margin: 0px auto;
+}
+
 /* Header */
 #nav-menu-container {
     width: 90%;
 }
+#nav-menu-container .collapse {
+    width: 35%;
+    flex-grow: 0;
+}
+#nav-menu-container .collapse ul {
+    width: 100%;
+    justify-content: space-between;
+}
 
 /* Carousel */
+.carousel {
+    box-shadow: 0px 0px 5px;
+    /* border-bottom: 1px solid #000; */
+}
 #carousel-container-inner {
-    height: calc(100vh - 56px);
+    max-height: calc(100vh - 68px);
 }
 .mm-carousel-info {
     position: absolute;
     bottom: 150px;
     height: 100px;
+}
+
+/* Welcome */
+.mm-info {
+    min-height: 150px;
 }
