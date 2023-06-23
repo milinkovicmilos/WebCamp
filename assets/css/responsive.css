@@ -19,6 +19,12 @@
     .mm-info {
         height: 60%;
     }
+    #author-container .row {
+        width: 80%;
+    }
+    #author-picture-container {
+        height: 400px;
+    }
 }
 @media screen and (min-width: 1200px) {
     body {
@@ -26,5 +32,8 @@
     }
     #footer-content {
         height: 115px;
+    }
+    #author-container .row {
+        width: 70%;
     }
 }

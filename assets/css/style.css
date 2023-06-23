@@ -38,41 +38,6 @@ body {
     justify-content: space-between;
 }
 
-/* Carousel */
-#carousel-container-inner {
-    max-height: calc(100vh - 68px);
-}
-.mm-carousel-info {
-    position: absolute;
-    bottom: 16%;
-    height: 100px;
-}
-
-/* Welcome */
-.mm-info {
-    min-height: 150px;
-}
-
-/* Offer */
-#courses-btn {
-    min-width: 225px;
-}
-
-/* Reviews */
-#reviews p {
-    text-align: justify;
-}
-.mm-review-image-container {
-    width: 100%;
-    height: calc(2rem + 80px);
-}
-.mm-review-image-container img {
-    display: block;
-    margin: 0px auto;
-    border-radius: 50%;
-    outline: 1px solid gray;
-}
-
 /* footer */
 footer {
     /* Keeps footer at the bottom of the screen */
@@ -95,4 +60,58 @@ i {
 }
 i:hover {
     color: var(--link-hover-color);
+}
+
+/* Carousel */
+#carousel-container-inner {
+    max-height: calc(100vh - 68px);
+    border-bottom: 1px solid gray;
+}
+.mm-carousel-info {
+    position: absolute;
+    bottom: 16%;
+    height: 100px;
+}
+
+/* Welcome */
+.mm-info {
+    min-height: 150px;
+}
+
+/* Offer */
+#courses-btn {
+    min-width: 225px;
+}
+
+/* Reviews */
+#reviews p {
+    font-size: 1.1rem;
+    text-align: justify;
+}
+.mm-review-image-container {
+    width: 100%;
+    height: calc(2rem + 80px);
+}
+.mm-review-image-container img {
+    border-radius: 50%;
+    outline: 1px solid gray;
+}
+
+/* Author page */
+#author-container {
+    margin: 60px 0px;
+}
+#author-container .row {
+    width: 75%;
+}
+#author-picture-container {
+    height: 200px;
+}
+#author-picture-container img {
+    display: block;
+    outline: 1px solid gray;
+    border-radius: 5px;
+}
+#author-text {
+    text-align: justify;
 }
