@@ -2,6 +2,16 @@
     margin: 0px;
     padding: 0px;
 }
+:root {
+    --link-color: rgba(0, 0, 0, 0.65);
+    --link-hover-color: rgba(0, 0, 0, 0.8);
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 290px; /* Footer height */
+}
 
 .mm-hr, #welcome, #footer-content, #offer, #reviews {
     width: 90%;
@@ -20,7 +30,7 @@
     width: 90%;
 }
 #nav-menu-container .collapse {
-    width: 35%;
+    width: clamp(35%, calc(550px - 5vw), 45%);
     flex-grow: 0;
 }
 #nav-menu-container .collapse ul {
@@ -29,9 +39,6 @@
 }
 
 /* Carousel */
-.carousel {
-    box-shadow: 0px 0px 5px;
-}
 #carousel-container-inner {
     max-height: calc(100vh - 68px);
 }
@@ -64,4 +71,28 @@
     margin: 0px auto;
     border-radius: 50%;
     outline: 1px solid gray;
+}
+
+/* footer */
+footer {
+    /* Keeps footer at the bottom of the screen */
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+#footer-content {
+    height: 290px; /* Default (mobile) footer height */
+}
+#footer-info {
+    height: 45%;
+}
+#socials-container {
+    padding: 10px 0px;
+}
+i {
+    color: var(--link-color);
+    transition: color 0.15s;
+}
+i:hover {
+    color: var(--link-hover-color);
 }

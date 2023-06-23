@@ -1,5 +1,30 @@
+@media screen and (min-width: 576px) {
+    body {
+        padding-bottom: 220px;
+    }
+    #footer-content {
+        height: 220px;
+    }
+}
 @media screen and (min-width: 768px) {
+    body {
+        padding-bottom: 140px;
+    }
+    #footer-content {
+        height: 140px;
+    }
+    #footer-info {
+        height: 100%;
+    }
     .mm-info {
         height: 60%;
+    }
+}
+@media screen and (min-width: 1200px) {
+    body {
+        padding-bottom: 115px;
+    }
+    #footer-content {
+        height: 115px;
     }
 }
