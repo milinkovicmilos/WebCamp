@@ -19,6 +19,20 @@
     .mm-info {
         height: 60%;
     }
+    /* Course page */
+    #banner-holder {
+        height: clamp(120px, 30vw - 100px, 335px);
+    }
+    .mm-course-container h3 {
+        font-size: 1.5rem!important;
+    }
+    .mm-course-desc {
+        font-size: 1.25rem!important;
+    }
+    .mm-note {
+        font-size: 1rem!important;
+    }
+    /* Author page */
     #author-container .row {
         width: 80%;
     }

@@ -13,7 +13,7 @@ body {
     padding-bottom: 290px; /* Footer height */
 }
 
-.mm-hr, #welcome, #footer-content, #offer, #reviews {
+.mm-hr, #welcome, #footer-content, #offer, #reviews, #course-offers {
     width: 90%;
     margin: 0px auto;
 }
@@ -95,6 +95,32 @@ i:hover {
 .mm-review-image-container img {
     border-radius: 50%;
     outline: 1px solid gray;
+}
+
+/* Courses page */
+#banner-holder {
+    background-image: url("../img/course-banner.jpg");
+    background-size: cover;
+    background-position-y: center;
+    background-attachment: scroll;
+}
+.mm-course-container {
+    width: 95%;
+    height: 100%;
+    margin: 0px auto;
+}
+.mm-course-container p {
+    text-align: justify;
+}
+.mm-course-info {
+    padding-bottom: 40px;
+}
+.mm-buy-course {
+    bottom: 20px;
+    left: 0px;
+}
+.mm-note {
+    font-size: 0.8rem!important;
 }
 
 /* Author page */
