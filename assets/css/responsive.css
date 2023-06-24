@@ -90,6 +90,10 @@
     #author-container .row {
         width: 70%;
     }
+    /* index page */
+    #slider h2 {
+        font-size: 2rem!important;
+    }
     /* Courses page */
     #banner-holder {
         background-position: bottom;
@@ -103,6 +107,10 @@
     }
 }
 @media screen and (min-width: 1400px) {
+    /* index page */
+    #slider p {
+        font-size: 1.25rem!important;
+    }
     /* Courses page */
     #carousel-reviews .carousel-inner {
         height: 550px;
