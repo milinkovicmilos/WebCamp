@@ -13,7 +13,7 @@ body {
     padding-bottom: 290px; /* Footer height */
 }
 
-.mm-hr, #welcome, #footer-content, #offer, #reviews, #course-offers {
+.mm-hr, #welcome, #footer-content, #offer, #reviews, #course-offers, #contact-reviews-slider {
     width: 90%;
     margin: 0px auto;
 }
@@ -121,6 +121,35 @@ i:hover {
 }
 .mm-note {
     font-size: 0.8rem!important;
+}
+#carousel-reviews .carousel-inner {
+    width: 98%;
+    height: 510px;
+    outline: 1px solid gray;
+    padding: 35px 0px;
+}
+#carousel-reviews p {
+    width: 90%;
+    margin: 0px auto;
+    text-align: justify;
+}
+.mm-slider-img, .mm-slider-text {
+    width: 90%;
+}
+.mm-review-slider-image-holder {
+    width: 40%;
+}
+.mm-review-slider-image-holder img {
+    border-radius: 50%;
+    box-shadow: 1px 2px 5px;
+}
+.modal-dialog {
+    width: 80%!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.modal-dialog td {
+    font-size: 0.8rem;
 }
 
 /* Author page */

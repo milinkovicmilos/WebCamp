@@ -1,9 +1,23 @@
+@media screen and (min-width: 425px) {
+    /* Courses page */
+    #carousel-reviews .carousel-inner {
+        height: 475px;
+    }
+}
 @media screen and (min-width: 576px) {
     body {
         padding-bottom: 220px;
     }
     #footer-content {
         height: 220px;
+    }
+    /* Courses page */
+    .modal-dialog {
+        max-width: 550px!important;
+        width: 550px!important;
+    }
+    .modal-dialog td {
+        font-size: 1rem;
     }
 }
 @media screen and (min-width: 768px) {
@@ -26,17 +40,39 @@
     .mm-course-container h3 {
         font-size: 1.5rem!important;
     }
-    .mm-course-desc {
+    .mm-course-desc, .mm-slider-text p {
         font-size: 1.25rem!important;
     }
     .mm-note {
         font-size: 1rem!important;
+    }
+    #carousel-reviews .carousel-inner {
+        height: 495px;
+    }
+    #carousel-reviews p {
+        width: 85%;
+    }
+    .mm-slider-img, .mm-slider-text {
+        width: 45%;
+    }
+    .mm-review-slider-image-holder {
+        width: 55%;
     }
     /* Author page */
     #author-container .row {
         width: 80%;
     }
     #author-picture-container {
+        height: 400px;
+    }
+}
+@media screen and (min-width: 900px) {
+    #carousel-reviews .carousel-inner {
+        height: 435px;
+    }
+}
+@media screen and (min-width: 992px) {
+    #carousel-reviews .carousel-inner {
         height: 400px;
     }
 }
@@ -49,5 +85,30 @@
     }
     #author-container .row {
         width: 70%;
+    }
+    /* Courses page */
+    #carousel-reviews .carousel-inner {
+        height: 625px;
+    }
+    .mm-review-slider-image-holder {
+        width: 45%;
+    }
+}
+@media screen and (min-width: 1400px) {
+    /* Courses page */
+    #carousel-reviews .carousel-inner {
+        height: 550px;
+    }
+}
+@media screen and (min-width: 1500px) {
+    /* Courses page */
+    #carousel-reviews .carousel-inner {
+        height: 500px;
+    }
+}
+@media screen and (min-width: 1700px) {
+    /* Courses page */
+    #carousel-reviews .carousel-inner {
+        height: 455px;
     }
 }

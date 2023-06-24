@@ -43,7 +43,7 @@
             <div class="w-100" id="banner-holder"></div>
         </section>
         <section class="py-3" id="course-offers">
-            <h2 class="text-center fs-3">Courses that we offer</h2>
+            <h2 class="text-center fs-3 py-3">Courses that we offer</h2>
             <div class="container-fluid">
                 <div class="row align-content-stretch">
                     <div class="col-12 col-sm-6 col-xl-3 mb-4 m-xl-0">
@@ -60,9 +60,66 @@
                                     This course is aimed to help everyone who struggles with or doesn't have
                                     any experience coding.
                                 </p>
-                                <a href="#" class="d-block w-100 position-absolute text-center mm-buy-course ">
-                                    <div class="w-75 btn btn-primary">Buy Now!</div>
-                                </a>
+                                <div class="w-100 position-absolute text-center mm-buy-course">
+                                    <button type="button" class="btn btn-primary w-75" data-bs-toggle="modal" data-bs-target="#course-modal-1">
+                                        Learn More!
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="course-modal-1" tabindex="-1" aria-labelledby="course-modal-1" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="course-modal-1">The Basics Course</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Contents of this course :</p>
+                                            <table class="table table-striped">
+                                                <thead>
+                                                    <tr>
+                                                        <th>#</th>
+                                                        <th>Topic</th>
+                                                        <th>Length</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>TCP/IP Architecture</td>
+                                                        <td>5 hours</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>Programming essentials (variables, arrays, functions etc.)</td>
+                                                        <td>5 hours</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>Programming Language C</td>
+                                                        <td>6 hours</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>Programming Paradigms</td>
+                                                        <td>3 hours</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>5</td>
+                                                        <td>Object Oriented Programming</td>
+                                                        <td>8 hours</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <a href="contact.html" class="d-block w-75 m-auto">
+                                                <div class="btn btn-primary w-100">Get this course !</div>
+                                            </a>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -81,9 +138,66 @@
                                     Also note: Content of this course is identical
                                     to what is included in Full Stack Fundamentals course.
                                 </p>
-                                <a href="#" class="d-block w-100 position-absolute text-center mm-buy-course ">
-                                    <div class="w-75 btn btn-primary">Buy Now!</div>
-                                </a>
+                                <div class="w-100 position-absolute text-center mm-buy-course">
+                                    <button type="button" class="btn btn-primary w-75" data-bs-toggle="modal" data-bs-target="#course-modal-2">
+                                        Learn More!
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="course-modal-2" tabindex="-1" aria-labelledby="course-modal-2" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="course-modal-2">Front End Fundamentals</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Contents of this course :</p>
+                                            <table class="table table-striped">
+                                                <thead>
+                                                    <tr>
+                                                        <th>#</th>
+                                                        <th>Topic</th>
+                                                        <th>Length</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>HTML / HTML5</td>
+                                                        <td>4 hours</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>CSS</td>
+                                                        <td>4 hours</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>Programming Language JavaScript</td>
+                                                        <td>8 hours</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>Sass</td>
+                                                        <td>2 hours</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>5</td>
+                                                        <td>jQuery</td>
+                                                        <td>4 hours</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <a href="contact.html" class="d-block w-75 m-auto">
+                                                <div class="btn btn-primary w-100">Get this course !</div>
+                                            </a>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -104,9 +218,61 @@
                                     Also note: Content of this course is identical
                                     to what is included in Full Stack Fundamentals course.
                                 </p>
-                                <a href="#" class="d-block w-100 position-absolute text-center mm-buy-course ">
-                                    <div class="w-75 btn btn-primary">Buy Now!</div>
-                                </a>
+                                <div class="w-100 position-absolute text-center mm-buy-course">
+                                    <button type="button" class="btn btn-primary w-75" data-bs-toggle="modal" data-bs-target="#course-modal-3">
+                                        Learn More!
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="course-modal-3" tabindex="-1" aria-labelledby="course-modal-3" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="course-modal-3">Back End Fundamentals</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Contents of this course :</p>
+                                            <table class="table table-striped">
+                                                <thead>
+                                                    <tr>
+                                                        <th>#</th>
+                                                        <th>Topic</th>
+                                                        <th>Length</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>DataBases</td>
+                                                        <td>5 hours</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>SQL</td>
+                                                        <td>8 hours</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>PHP</td>
+                                                        <td>10 hours</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>Laravel</td>
+                                                        <td>10 hours</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <a href="contact.html" class="d-block w-75 m-auto">
+                                                <div class="btn btn-primary w-100">Get this course !</div>
+                                            </a>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -123,11 +289,198 @@
                                     Note: This course heavily relies on knowledge covered 
                                     in The Basics course.
                                 </p>
-                                <a href="#" class="d-block w-100 position-absolute text-center mm-buy-course">
-                                    <div class="w-75 btn btn-primary">Buy Now!</div>
-                                </a>
+                                <div class="w-100 position-absolute text-center mm-buy-course">
+                                    <button type="button" class="btn btn-primary w-75" data-bs-toggle="modal" data-bs-target="#course-modal-4">
+                                        Learn More!
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="course-modal-4" tabindex="-1" aria-labelledby="course-modal-4" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="course-modal-4">Full Stack Fundamentals</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Contents of this course :</p>
+                                            <table class="table table-striped">
+                                                <thead>
+                                                    <tr>
+                                                        <th>#</th>
+                                                        <th>Topic</th>
+                                                        <th>Length</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>HTML / HTML5</td>
+                                                        <td>4 hours</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>CSS</td>
+                                                        <td>4 hours</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>Programming Language JavaScript</td>
+                                                        <td>8 hours</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>Sass</td>
+                                                        <td>2 hours</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>5</td>
+                                                        <td>jQuery</td>
+                                                        <td>4 hours</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>6</td>
+                                                        <td>DataBases</td>
+                                                        <td>5 hours</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>SQL</td>
+                                                        <td>8 hours</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>7</td>
+                                                        <td>PHP</td>
+                                                        <td>10 hours</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>8</td>
+                                                        <td>Laravel</td>
+                                                        <td>10 hours</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <a href="contact.html" class="d-block w-75 m-auto">
+                                                <div class="btn btn-primary w-100">Get this course !</div>
+                                            </a>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact-reviews-slider" class="py-3 mb-3">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-xl-6 mb-4 mb-xl-0 position-relative">
+                        <h3 class="text-center pb-3">If you have any questions feel free to contact us</h3>
+                        <p class="fs-5">
+                            We always try to answer all of your questions in shortest possible time.
+                            Please contact us through form that is linked below.
+                        </p>
+                        <p class="fs-5">
+                            We usually answer within 24 hours from receiving your message.
+                        </p>
+                        <a href="contact.html" class="text-decoration-none">
+                            <div class="btn btn-primary d-block m-auto w-50 mt-5 py-2">Message us now</div>
+                        </a>
+                    </div>
+                    <div id="carousel-reviews" class="carousel carousel-dark slide col-12 col-xl-6" data-bs-ride="carousel" data-bs-touch="true">
+                        <h3 class="text-center">What our students have to say</h3>
+                        <div class="carousel-inner rounded-2 m-auto">
+                            <div class="carousel-item active">
+                                <div class="row justify-content-center">
+                                    <div class="mm-slider-img d-flex justify-content-center align-items-center position-relative mx-xl-0 py-3">
+                                        <div class="m-auto mm-review-slider-image-holder">
+                                            <img src="assets/img/review-1.jpg" class="d-block m-auto w-100" alt="first-reviewer-picture" />
+                                        </div>
+                                        <div class="d-none d-xl-block mm-vertical-line"></div>
+                                    </div>
+                                    <div class="mm-slider-text mx-xl-0 py-3">
+                                        <p class="fs-6">
+                                            WebCamp helped me jump start into web development after working in system
+                                            administration for 5 years. Courses are well structured and teach a lot of
+                                            practical knowledge. The ability to watch the course on any device
+                                            makes it really easy and allows you to continue learning anywhere.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row justify-content-center">
+                                    <div class="mm-slider-img d-flex justify-content-center align-items-center position-relative mx-xl-0 py-3">
+                                        <div class="m-auto mm-review-slider-image-holder">
+                                            <img src="assets/img/review-2.jpg" class="d-block m-auto w-100" alt="first-reviewer-picture" />
+                                        </div>
+                                        <div class="d-none d-xl-block mm-vertical-line"></div>
+                                    </div>
+                                    <div class="mm-slider-text mx-xl-0 py-3">
+                                        <p class="fs-6">
+                                            Coding always looked difficult for me, but after my friends recommended me
+                                            WebCamp I decided to try it out. Instructors are really patient and their
+                                            explanation skills are extraordinary. The main focus is on gaining practical
+                                            knowledge which is why I would recommend it for anyone looking for such course.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row justify-content-center">
+                                    <div class="mm-slider-img d-flex justify-content-center align-items-center position-relative mx-xl-0 py-3">
+                                        <div class="m-auto mm-review-slider-image-holder">
+                                            <img src="assets/img/review-3.jpg" class="d-block m-auto w-100" alt="first-reviewer-picture" />
+                                        </div>
+                                        <div class="d-none d-xl-block mm-vertical-line"></div>
+                                    </div>
+                                    <div class="mm-slider-text mx-xl-0 py-3">
+                                        <p class="fs-6">
+                                            As someone who never did any coding myself I found The Basics Course to be
+                                            extremely helpful. Ability to ask course instructor a question is really helpful
+                                            as you get exact information that you need on the course you are working on.
+                                            I recommend it for everyone who is new to the world of programming.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row justify-content-center">
+                                    <div class="mm-slider-img d-flex justify-content-center align-items-center position-relative mx-xl-0 py-3">
+                                        <div class="m-auto mm-review-slider-image-holder">
+                                            <img src="assets/img/review-4.jpg" class="d-block m-auto w-100" alt="first-reviewer-picture" />
+                                        </div>
+                                        <div class="d-none d-xl-block mm-vertical-line"></div>
+                                    </div>
+                                    <div class="mm-slider-text mx-xl-0 py-3">
+                                        <p class="fs-6">
+                                            As Front End developer I wanted to expand my web development knowledge and learn
+                                            the basics of Back End development. WebCamp's Back End Basics Course helped
+                                            me learn the basics of technologies that are used for Back End such as PHP
+                                            and Laravel and i successfully made 2 projects.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel-reviews" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Review 1"></button>
+                            <button type="button" data-bs-target="#carousel-reviews" data-bs-slide-to="1" aria-label="Review 2"></button>
+                            <button type="button" data-bs-target="#carousel-reviews" data-bs-slide-to="2" aria-label="Review 3"></button>
+                            <button type="button" data-bs-target="#carousel-reviews" data-bs-slide-to="3" aria-label="Review 3"></button>
+                          </div>
+                        <button class="d-none d-lg-block carousel-control-prev" type="button" data-bs-target="#carousel-reviews" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="d-none d-lg-block carousel-control-next" type="button" data-bs-target="#carousel-reviews" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
                 </div>
             </div>
