@@ -61,6 +61,12 @@ footer {
 #socials-container {
     padding: 10px 0px;
 }
+#to-top-btn {
+    position: fixed;
+    z-index: 1;
+    bottom: 20px;
+    right: 30px;
+}
 i {
     color: var(--link-color);
     transition: color 0.15s;
