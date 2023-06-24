@@ -62,6 +62,9 @@
     #contact-banner-holder {
         height: clamp(120px, 30vw - 100px, 335px);
     }
+    #form-container ::placeholder {
+        font-size: 1rem;
+    }
     /* Author page */
     #author-container .row {
         width: 80%;

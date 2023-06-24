@@ -189,6 +189,9 @@ i:hover {
     width: 90%;
     outline: 2px solid var(--input-color);
 }
+#form-container ::placeholder {
+    font-size: 0.9rem;
+}
 #form-container input[type="text"] {
     width: 100%;
     padding: 0.5rem;
