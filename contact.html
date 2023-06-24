@@ -39,6 +39,44 @@
         </nav>
     </header>
     <main>
+        <section class="position-relative">
+            <div class="mm-dark position-absolute w-100 h-100"></div>
+            <div class="w-100" id="contact-banner-holder"></div>
+            <h2 class="d-none d-md-block text-center text-light w-100 position-absolute bottom-0 pb-3">Contact Us</h2>
+        </section>
+        <section class="mt-3">
+            <h2 class="d-block d-md-none text-center">Contact Us</h2>
+        </section>
+        <section class="py-3" id="contact-section">
+            <form action="#" method="post">
+                <div class="container-fluid">
+                    <div class="row rounded-2 p-3 m-auto" id="form-container">
+                        <div class="col-12 col-lg-6">
+                            <label for="first-name">First Name:</label><br/>
+                            <input type="text" id="first-name" name="first-name" required="required"/>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <label for="last-name">Last Name:</label><br/>
+                            <input type="text" id="last-name" name="last-name" required="required"/>
+                        </div>
+                        <div class="col-12">
+                            <label for="email">Email:</label><br/>
+                            <input type="text" id="email" name="email" required="required"/>
+                        </div>
+                        <div class="col-12">
+                            <label for="subject">Subject</label><br/>
+                            <input type="text" id="subject" name="subject" required="required"/>
+                        </div>
+                        <div class="col-12">
+                            <textarea name="message" id="message" rows="4" required="required"></textarea>
+                        </div>
+                        <div class="col-12">
+                            <input type="submit" class="btn btn-dark w-100" id="sub-btn" name="sub-btn" value="Send">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </section>
     </main>
     <footer>
         <div class="cointainer-fluid bg-body-secondary">

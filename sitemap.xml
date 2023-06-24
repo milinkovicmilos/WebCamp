@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://www.milinkovicmilos.github.io/WebCamp/index.html</loc>
+        <loc>https://milinkovicmilos.github.io/WebCamp/index.html</loc>
         <priority>0.9</priority>
         <changereq>daily</changereq>
-        <lastmod>22-6-2023</lastmod>
+        <lastmod>24-6-2023</lastmod>
+    </url>
+    <url>
+        <loc>https://milinkovicmilos.github.io/WebCamp/courses.html</loc>
+        <priority>0.7</priority>
+        <changereq>weekly</changereq>
+        <lastmod>24-6-2023</lastmod>
+    </url>
+    <url>
+        <loc>https://milinkovicmilos.github.io/WebCamp/contact.html</loc>
+        <priority>0.6</priority>
+        <changereq>monthly</changereq>
+        <lastmod>24-6-2023</lastmod>
+    </url>
+    <url>
+        <loc>https://milinkovicmilos.github.io/WebCamp/author.html</loc>
+        <priority>0.5</priority>
+        <changereq>yearly</changereq>
+        <lastmod>23-6-2023</lastmod>
     </url>
 </urlset>

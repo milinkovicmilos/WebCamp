@@ -58,6 +58,10 @@
     .mm-review-slider-image-holder {
         width: 55%;
     }
+    /* Contact page */
+    #contact-banner-holder {
+        height: clamp(120px, 30vw - 100px, 335px);
+    }
     /* Author page */
     #author-container .row {
         width: 80%;
@@ -87,6 +91,10 @@
         width: 70%;
     }
     /* Courses page */
+    #banner-holder {
+        background-position: bottom;
+        background-attachment: fixed;
+    }
     #carousel-reviews .carousel-inner {
         height: 625px;
     }
@@ -98,6 +106,10 @@
     /* Courses page */
     #carousel-reviews .carousel-inner {
         height: 550px;
+    }
+    /* Contact page */
+    #form-container {
+        width: 50%;
     }
 }
 @media screen and (min-width: 1500px) {
